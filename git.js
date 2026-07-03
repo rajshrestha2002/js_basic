@@ -66,5 +66,14 @@
 
 //*cherry-pick <commit-id>
 //*git cherry-pick <commit-id>
-//godaddy
+//main: A->B->C->F->G->D'
+//fix:       C->D->E
+
+// reset -> HEAD~n-> HEAD~1
+//*git reset <commit-id>
+//*git reset --soft <commit-id>
+//*git reset --mixed <commit-id>
+//*git reset --hard <commit-id>
+//fix C->D->E
+
 
