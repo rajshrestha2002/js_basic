@@ -12,7 +12,11 @@ const obj=new Object();
 const user = {
     name:"John",
     email: "john@gmail.com",
+    address: {
+        city:"kathmandu",
+        country:"npl",
     }
+}
 //console.log(user.name);
 
 //accessing/reading object properties.
@@ -56,14 +60,14 @@ user.age=27;
 //let {name,email,age,id}=user;
 //console.log(user);
 
-let user2={
-    name:"Alice",
-    email:"alice@gmail.com",
-    id:"2",
-    age:25,
-}
+//let user2={
+//      name:"Alice",
+//      email:"alice@gmail.com",
+//      id:"2",
+//      age:25,
+//}
 //destruct user2
-let {name:user2_name, email:user2_email, age:user2_age, id:user2_id} = user2;
+//let {name:user2_name, email:user2_email, age:user2_age, id:user2_id} = user2;
 //console.log(user2_name, user2_email);
 
 // rest cp..
@@ -79,7 +83,33 @@ let o1={
 //let o2=o1;
 //let o2={o1};
 //let o2={...o1};
-let o2={...o1,c:"c"};
+//let o2={...o1,c:"c"};
+//o2.a="a2";
+//console.log(o1,o2);
+console.log(user.address.city);
+// //bracket
+console.log(user["address"] ["city"]);
 
-o2.a="a2";
-console.log(o1,o2);
+const user1={
+    name:"john",
+    email:"john@gmail.com",
+    address:{
+        city:"kathmandu",
+        country:"npl",
+    }
+}
+const user2={
+    name:"john",
+    email:"john@gmail.com",
+}
+//optional chaining [?.]
+console.log(user1.address.city);
+//console.log(user2.address.city);
+//<p> {user2.address?.city} </p>
+
+if (user2.address){
+    console.log(user2.address.city);
+}
+//console.log(undefined.city);
+//!null.safty ??
+console.log(user2.address?.city??"city not found");
