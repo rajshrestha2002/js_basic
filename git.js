@@ -76,4 +76,6 @@
 //*git reset --hard <commit-id>
 //fix C->D->E
 
-
+//revert
+//*git revert <commit-id>
+//fix C->D->E->D'
