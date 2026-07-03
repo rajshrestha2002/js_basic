@@ -63,4 +63,5 @@
 //test:       C->D->E
 //test:       C->F->G->D'->E'
 
-//*git rebase <branch_name>
+//*git rebase <branch_name>//
+
