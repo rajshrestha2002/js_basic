@@ -51,3 +51,5 @@
 //?merge
 //*git merge <branch_name>
 //*git switch -c <branch_name> -> create & switch to new branch
+//? merge
+//*git merge <branch_name>
