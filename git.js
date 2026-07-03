@@ -45,6 +45,8 @@
 //?branching
 //*git branch ->list all local branch
 //*git branch <branch_name> -> create new branch
+//*git branch -d <branch_name> -> delete branch/soft
+//*git branch -D <branch_name> -> delete branch/hard
 //*git switch <branch_name> -> switch between branches
 //*git checkout <branch_name> -> switch between branches
 //*git checkout -b <branch_name> -> create & switch to new branche
