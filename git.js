@@ -79,6 +79,8 @@
 //revert
 //*git revert <commit-id>
 //fix C->D->E->D'
-//godaddy test for revert next
 
-//godaddy test for revert
+//?restore <file-name>
+//*git status
+//*git restore --staged <file-name>
+
