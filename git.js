@@ -62,6 +62,9 @@
 //main: A->B->C->F->G
 //test:       C->D->E
 //test:       C->F->G->D'->E'
-
 //*git rebase <branch_name>//
+
+//*cherry-pick <commit-id>
+//*git cherry-pick <commit-id>
+//godaddy
 
