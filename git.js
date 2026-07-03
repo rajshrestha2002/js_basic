@@ -86,3 +86,9 @@
 //*git status
 //*git restore --staged <file-name>
 
+//pr- pull request to be done in github
+//*main -> production
+//*develop -> integration
+//*feature -> feature/login
+//*fix -> fix/
+//*hotfix -> hotfix/
