@@ -51,5 +51,16 @@
 //?merge
 //*git merge <branch_name>
 //*git switch -c <branch_name> -> create & switch to new branch
+
 //? merge
 //*git merge <branch_name>
+
+//*git log
+//*git log --oneling
+
+//?rebase
+//main: A->B->C->F->G
+//test:       C->D->E
+//test:       C->F->G->D'->E'
+
+//*git rebase <branch_name>
